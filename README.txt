@@ -1,3 +1,14 @@
+============ Howto Build jssc-xx.jar ========
+> cd src/java
+> javac jssc/*.java
+> jar -cvf jssc-2.8.1.jar jssc/*.class libs
+
+=============================================
+
+This version also contains native libs for arm64.
+
+=============================================
+
 jSSC-2.8.0 Release version (24.01.2014)
 
 This version contains native libs for Windows(x86, x86-64), Linux(x86, x86-64, ARM soft & hard float), Solaris(x86, x86-64), Mac OS X(x86, x86-64, PPC, PPC64).
